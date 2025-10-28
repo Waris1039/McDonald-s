@@ -1,0 +1,145 @@
+.mcbtn{
+    background-color: #FFBC0D;
+    border: none;
+}
+.mcbtn:hover{
+    background-color: #FFBC0D;
+}
+.list{
+    list-style: none;
+}
+section{
+    padding-top: 50px;
+    margin: 70px 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer1{
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin: auto;
+}
+.footer1 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(17, 17, 17);   
+}
+.footer2{
+    padding: 10px;
+    margin: auto;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+.footer2 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+.footer3{
+    padding: 10px; 
+    margin: auto;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+.footer3 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+.footer4{
+    padding: 10px; 
+    margin: auto;
+    margin-top: 0;
+}
+.footer4 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(17, 17, 17);    
+}
+.img-btn-sec{
+    margin: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+    text-align: center;
+}
+.btn-sec{
+    display: flex;
+    margin-left: -25px;
+}
+.img-sec{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer-buttons{
+    gap: 15px;
+
+}
+.footer-buttons button{
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #c2c1c1;
+    background-color: #f8f8f8;
+}
+.text-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footer-list ul li{
+    list-style: none;
+    display: flex;
+    display: inline;
+    font-size: 12px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+ .text p{
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+}
+.text img{
+    margin-left: 20px;
+}
+.text{
+    display: flex;
+}
+@media (max-width: 768px) {
+  .text-sec {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-list ul {
+    padding: 0;
+  }
+
+  .footer-list ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .text {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .text img {
+    margin-left: 0;
+  }
+}
