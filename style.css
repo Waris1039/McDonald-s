@@ -89,6 +89,7 @@ section{
     border-radius: 50px;
     height: 35px;
     width: 35px;
+    margin-left: 10px;
     border: 1px solid #c2c1c1;
     background-color: #f8f8f8;
 }
